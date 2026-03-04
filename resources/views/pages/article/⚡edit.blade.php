@@ -78,7 +78,7 @@ new class extends Component
         <div>
             <label class="block text-sm font-medium text-neutral-700 dark:text-neutral-300">{{ __('Article Body') }}</label>
             <input id="body" type="hidden" wire:model.defer="body" value="{{ $this->body }}">
-            <trix-editor input="body" class="mt-2 h-50" wire:ignore></trix-editor>
+            <trix-editor input="body" class="mt-2" wire:ignore></trix-editor>
         </div>
 
         <!-- Thumbnail Upload -->

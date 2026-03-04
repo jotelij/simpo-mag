@@ -20,7 +20,7 @@
 
             @if($article->thumbnail)
                 <figure class="my-6">
-                    <img src="{{ asset('storage/'.$article->thumbnail) }}" alt="{{ $article->title }}" class="w-full rounded-md object-cover">
+                    <img src="{{ asset('storage/'.$article->thumbnail) }}" alt="{{ $article->title }}" class="h-100 rounded-md object-cover">
                 </figure>
             @endif
            

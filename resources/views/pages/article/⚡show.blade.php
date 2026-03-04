@@ -35,7 +35,7 @@ new class extends Component
 
         @if($this->article->thumbnail)
             <figure class="my-6">
-                <img src="{{ asset('storage/'.$this->article->thumbnail) }}" alt="{{ $this->article->title }}" class="w-full rounded-md object-cover">
+                <img src="{{ asset('storage/'.$this->article->thumbnail) }}" alt="{{ $this->article->title }}" class="h-100 rounded-md object-cover">
             </figure>
         @endif
 
