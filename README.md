@@ -47,7 +47,7 @@ php artisan storage:link
 
 ## Usage
 
-```python
+```bash
 php artisan serve
 ```
 
